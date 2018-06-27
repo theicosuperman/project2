@@ -1,3 +1,5 @@
-module.exports = function() {
-console.log('test!!!');
+module.exports = function(lang) {
+	if (lang === "en") {
+	console.log('test!!!');
+	}
 }
